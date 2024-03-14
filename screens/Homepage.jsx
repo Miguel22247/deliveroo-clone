@@ -1,12 +1,32 @@
-import { View, Text } from 'react-native'
-import React from 'react'
+import { Text, SafeAreaView, View, Image, TextInput } from "react-native";
+import React, { useLayoutEffect } from "react";
+import { useNavigation } from "@react-navigation/native";
+import {
+  UserIcon,
+  ChevronDownIcon,
+  MagnifyingGlassIcon,
+  AdjustmentsVerticalIcon,
+} from "react-native-heroicons/outline";
+import Header from "../components/Header";
+import Search from "../components/Search";
 
 const Homepage = () => {
-  return (
-    <View>
-      <Text className="text-red-500">Homepage</Text>
-    </View>
-  )
-}
+  const navigation = useNavigation();
 
-export default Homepage
+  useLayoutEffect(() => {
+    navigation.setOptions({
+      headerShown: false,
+    });
+  }, []);
+
+  return (
+    <SafeAreaView className="bg-white pt-5">
+      {/* Header */}
+      <Header />
+      {/* Search */}
+      <Search />
+    </SafeAreaView>
+  );
+};
+
+export default Homepage;
