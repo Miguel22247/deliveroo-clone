@@ -1,4 +1,4 @@
-import { Text, SafeAreaView, View, Image, ScrollView } from "react-native";
+import { SafeAreaView, ScrollView } from "react-native";
 import React, { useEffect, useLayoutEffect, useState } from "react";
 import { useNavigation } from "@react-navigation/native";
 import Header from "../components/common/Header";
