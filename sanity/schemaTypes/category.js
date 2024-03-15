@@ -6,7 +6,7 @@ export default defineType({
   type: 'document',
   fields: [
     defineField({
-      name: 'title',
+      name: 'name',
       title: 'Category name',
       type: 'string',
       validation: (Rule) => Rule.required(),
