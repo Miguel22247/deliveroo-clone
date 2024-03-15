@@ -7,7 +7,7 @@ import Categories from "../components/Categories";
 import FeaturedRow from "../components/FeaturedRow";
 import sanityClient from "../sanity";
 
-const Homepage = () => {
+const HomeScreen = () => {
   const navigation = useNavigation();
   const [featuredCategories, setFeatureCategories] = useState([]);
 
@@ -57,4 +57,4 @@ const Homepage = () => {
   );
 };
 
-export default Homepage;
+export default HomeScreen;
