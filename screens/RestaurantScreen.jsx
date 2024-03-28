@@ -1,5 +1,9 @@
-import React, { useLayoutEffect } from "react";
 import { Image, ScrollView, Text, TouchableOpacity, View } from "react-native";
+import React, { useEffect, useLayoutEffect } from "react";
+import { urlFor } from "../sanity";
+import { useDispatch } from "react-redux";
+import { useNavigation } from "@react-navigation/native";
+import { useRoute } from "@react-navigation/native";
 import {
   ArrowLeftIcon,
   StarIcon,
@@ -7,14 +11,13 @@ import {
   ChevronRightIcon,
 } from "react-native-heroicons/solid";
 import { QuestionMarkCircleIcon } from "react-native-heroicons/outline";
-import { useNavigation } from "@react-navigation/native";
-import { useRoute } from "@react-navigation/native";
-import { urlFor } from "../sanity";
-import DishRow from "../components/DishRow";
 import BasketIcon from "../components/BasketIcon";
+import DishRow from "../components/DishRow";
+import { setRestaurant } from "../features/restaurantSlice";
 
 const RestaurantScreen = () => {
   const navigation = useNavigation();
+  const dispatch = useDispatch();
 
   useLayoutEffect(() => {
     navigation.setOptions({
@@ -36,6 +39,24 @@ const RestaurantScreen = () => {
       lat,
     },
   } = useRoute();
+
+  useEffect(() => {
+    dispatch(
+      setRestaurant({
+        id,
+        imgUrl,
+        title,
+        rating,
+        genre,
+        address,
+        short_description,
+        dishes,
+        long,
+        lat,
+      })
+    );
+  }, []);
+
   return (
     <>
       <BasketIcon />
