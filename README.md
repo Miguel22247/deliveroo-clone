@@ -17,7 +17,7 @@ Screenshots section coming soon - add your app screenshots here
 
 ### Home Screen
 
-[Placeholder for Home Screen screenshot]
+<img width="1179" height="2556" alt="image" src="https://github.com/user-attachments/assets/57832d61-275c-412b-9c82-ea7f609b1f47" />
 
 - Browse featured restaurants
 - Search functionality
@@ -25,7 +25,11 @@ Screenshots section coming soon - add your app screenshots here
 
 ### Restaurant Screen
 
-[Placeholder for Restaurant Screen screenshot]
+<img width="1179" height="2556" alt="image" src="https://github.com/user-attachments/assets/52399bbb-418f-4c30-98ac-599a6d24b211" />
+
+<img width="1179" height="2556" alt="image" src="https://github.com/user-attachments/assets/34b1a8f0-67b1-4ed7-a4f9-101078aa9fea" />
+
+<img width="1179" height="2556" alt="image" src="https://github.com/user-attachments/assets/80b1ac4c-1010-40e0-adfc-9df3bf692b8a" />
 
 - Menu items
 - Restaurant details
@@ -33,26 +37,17 @@ Screenshots section coming soon - add your app screenshots here
 
 ### Basket & Checkout
 
-[Placeholder for Basket Screen screenshot]
+<img width="1179" height="2556" alt="image" src="https://github.com/user-attachments/assets/574c86e9-621e-418e-bce2-48fe7df0a791" />
 
 - Order summary
 - Price calculation
 - Delivery options
-
-### Delivery Tracking
-
-[Placeholder for Delivery Screen screenshot]
-
-- Real-time status
-- Delivery map view
-- ETA display
 
 ## Features
 
 - 🏪 Browse restaurants and dishes
 - 🛒 Add items to basket
 - 🔄 Real-time price calculation
-- 🚗 Delivery status tracking
 - 📱 Native animations
 - 💳 Shopping basket management
 - 🎨 Clean UI with Tailwind CSS styling
