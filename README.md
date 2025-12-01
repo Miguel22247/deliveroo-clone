@@ -11,19 +11,7 @@ A mobile application built with React Native and Expo that replicates core Deliv
 
 ## Screenshots
 
-Screenshots section coming soon - add your app screenshots here
-
-## App Preview
-
-### Home Screen
-
 <img width="1179" height="2556" alt="image" src="https://github.com/user-attachments/assets/57832d61-275c-412b-9c82-ea7f609b1f47" />
-
-- Browse featured restaurants
-- Search functionality
-- Category filtering
-
-### Restaurant Screen
 
 <img width="1179" height="2556" alt="image" src="https://github.com/user-attachments/assets/52399bbb-418f-4c30-98ac-599a6d24b211" />
 
@@ -31,13 +19,23 @@ Screenshots section coming soon - add your app screenshots here
 
 <img width="1179" height="2556" alt="image" src="https://github.com/user-attachments/assets/80b1ac4c-1010-40e0-adfc-9df3bf692b8a" />
 
+<img width="1179" height="2556" alt="image" src="https://github.com/user-attachments/assets/574c86e9-621e-418e-bce2-48fe7df0a791" />
+
+## App Preview
+
+### Home Screen
+
+- Browse featured restaurants
+- Search functionality
+- Category filtering
+
+### Restaurant Screen
+
 - Menu items
 - Restaurant details
 - Dish customization
 
 ### Basket & Checkout
-
-<img width="1179" height="2556" alt="image" src="https://github.com/user-attachments/assets/574c86e9-621e-418e-bce2-48fe7df0a791" />
 
 - Order summary
 - Price calculation
